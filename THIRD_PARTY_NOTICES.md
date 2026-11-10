@@ -2,9 +2,8 @@
 
 ## warment/zcode-ru
 
-База словаря (`dict/ru/01.json` … `19.json`, а также `scripts/extract.mjs`) взята из проекта
-**zcode-ru** — https://github.com/warment/zcode-ru (тег `v2.0.4`), распространяется по
-лицензии MIT:
+База русскоязычного словаря (`dict/ru/01.json` … `19.json`) взята из проекта **zcode-ru** —
+https://github.com/warment/zcode-ru (тег `v2.0.4`), который распространяется по лицензии MIT:
 
 ```
 MIT License

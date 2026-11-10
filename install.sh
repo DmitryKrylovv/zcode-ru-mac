@@ -95,7 +95,7 @@ elif [[ -f "$HERE/app-ru.asar" ]]; then
   log "использую архив рядом со скриптом"
 elif [[ -f "$HERE/build/app-ru.asar" ]]; then
   NEW="$HERE/build/app-ru.asar"
-  log "использую собранный архив: build/app-ru.asar"
+  log "использую архив из build/"
 else
   # запуск одной строкой: скачиваем архив из релиза
   TMPDIR_RU="$(mktemp -d)"
