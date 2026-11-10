@@ -9,7 +9,7 @@
 #
 # Параметры:
 #   --check          только скачать архив и проверить контрольную сумму, приложение не трогать
-#   --asar ПУТЬ      использовать свой собранный архив (например build/app-ru.asar)
+#   --asar ПУТЬ      использовать готовый архив из другого места
 #   --tag ТЕГ        взять архив из другого релиза (по умолчанию v1.0.0)
 #   --restore        вернуть оригинальный app.asar (то же, что restore.sh)
 #
@@ -40,7 +40,7 @@ ZCode на русском — установка и откат.
 
   bash install.sh                установить
   bash install.sh --check        только скачать и проверить архив
-  bash install.sh --asar ПУТЬ    использовать свой собранный архив
+  bash install.sh --asar ПУТЬ    использовать готовый архив из другого места
   bash install.sh --tag ТЕГ      взять другой релиз (по умолчанию v1.0.0)
   bash install.sh --restore      вернуть оригинал
 
@@ -138,11 +138,8 @@ print(next((x["id"] for x in a if x["name"]=="app-ru.asar"), ""))' 2>/dev/null |
       rm -f "$NEW"
       die "не удалось скачать архив ($URL).
 
-Скорее всего репозиторий приватный — тогда нужен доступ. Любой из вариантов:
-  • войти в gh:      gh auth login      (установщик сам использует gh)
-  • передать токен:  GITHUB_TOKEN=\$(gh auth token) bash <(curl -fsSL https://raw.githubusercontent.com/$REPO/main/install.sh)
-  • собрать самому:  git clone https://github.com/$REPO && cd zcode-ru-mac && npm run build && ./install.sh
-  • скачать архив вручную из Releases и положить рядом с install.sh"
+Проверьте подключение к интернету и повторите. Если не помогает — скачайте файл
+app-ru.asar вручную из раздела Releases репозитория и положите его рядом с install.sh."
     fi
   fi
 
