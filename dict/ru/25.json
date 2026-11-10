@@ -1,0 +1,20 @@
+{
+"remote.status.connected":"Подключено",
+"remote.status.connecting":"Подключение",
+"remote.status.failed":"Не удалось подключиться",
+"remote.status.needsCredentials":"Нужен пароль",
+"remote.status.needsIdentity":"Подтвердите новое устройство",
+"remote.status.needsInstall":"Нужна установка",
+"remote.status.needsUpdate":"Нужно обновление",
+"remote.status.offline":"Не подключено",
+"remote.status.online":"Подключено",
+"remote.status.pending":"Требует внимания",
+"remote.status.updating":"Обновление",
+"remote.syncAll":"Синхронизировать всё",
+"remote.syncMcp":"Синхронизировать конфигурацию MCP",
+"remote.syncPlugins":"Синхронизировать плагины",
+"remote.syncSkills":"Синхронизировать скиллы на это устройство",
+"remote.transferTimeRemaining":"Осталось около {seconds} с",
+"remote.transferTimeUnknown":"Оценка оставшегося времени",
+"remote.useRemoteDownload":"Загрузить прямо на устройстве"
+}

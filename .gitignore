@@ -1,0 +1,9 @@
+# Собранный локализованный архив — не в git (350 МБ, есть лимит 100 МБ на файл).
+# Собирается из своей установки: node scripts/patch-asar.mjs ...
+app-ru.asar
+build/
+work/
+node_modules/
+upstream/
+*.log
+.DS_Store
