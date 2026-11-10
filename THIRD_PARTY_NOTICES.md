@@ -30,6 +30,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+## Благодарности
+
+Спасибо проекту **zcode-ru** — он первым сделал русскую локализацию ZCode. Основа словаря
+(6 115 переводов), подход к правке словарей внутри `app.asar` и скрипт извлечения текстов
+взяты оттуда; этот пакет — продолжение их работы под ZCode 3.17.2.
+
 ## ZCode
 
 ZCode — продукт Beijing Knowledge Atlas Technology (Z.ai). Этот пакет не официальный,
